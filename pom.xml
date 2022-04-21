@@ -49,9 +49,9 @@
 	
 	
 	<scm>
-		<connection>scm:git:git@github.com:kesavkummari/staragiledevops.git</connection>
-		<developerConnection>scm:git:git@github.com:kesavkummari/staragiledevops.git</developerConnection>
-		<url>git@github.com:kesavkummari/staragiledevops.git</url>
+		<connection>scm:git:git@github.com:kesavkummari/cloudbinary-java-project.git</connection>
+		<developerConnection>scm:git:git@github.com:kesavkummari/cloudbinary-java-project.git</developerConnection>
+		<url>git@github.com:kesavkummari/cloudbinary-java-project.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
