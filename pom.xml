@@ -38,14 +38,14 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<name>jfrog.cloudbinary.io-snapshots</name>
-			<url>http://13.126.176.84:8081/artifactory/libs-snapshot-local<url>
+			<name>lib-snashot-cloudbinary-local</name>
+			<url>http://13.126.176.84:8082/artifactory/lib-snashot-cloudbinary-local/<url>
 		</snapshotRepository>
 	
 		<repository>
 			<id>central</id>
-			<name>jfrog.cloudbinary.io-snapshots</name>
-			<url>http://13.126.176.84:8081/artifactory/libs-snapshot-local</url>
+			<name>lib-snashot-cloudbinary-local</name>
+			<url>http://13.126.176.84:8082/artifactory/lib-snashot-cloudbinary-local/</url>
 		</repository>
 	</distributionManagement>
 	
