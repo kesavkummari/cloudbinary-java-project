@@ -33,14 +33,21 @@
         <sonar.login>70f2cfc2e547fdb1b8ec1225d58ce74abfb91426</sonar.login>
 
 	</properties>
+		
 	
-<distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>jfrog.cloudbinary.io-snapshots</name>
-        <url>http://13.126.176.84:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>	
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>jfrog.cloudbinary.io-snapshots</name>
+			<url>http://13.126.176.84:8081/artifactory/libs-snapshot-local/<url>
+		</snapshotRepository>
+	
+		<repository>
+			<id>central</id>
+			<name>jfrog.cloudbinary.io-snapshots</name>
+			<url>http://13.126.176.84:8081/artifactory/libs-snapshot-local/</url>
+		</repository>
+	</distributionManagement>
 	
 	<scm>
 		<connection>scm:git:git@github.com:kesavkummari/cloudbinary-java-project.git</connection>
