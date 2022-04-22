@@ -34,19 +34,13 @@
 
 	</properties>
 	
-	<distributionManagement>
-	    <repository>
-        	<id>central</id>
-	        <name>jfrog.staragile.com-releases</name>
-        	<url>http://54.210.188.242:8082/artifactory/staragile-lib-local-snapshot/</url>
-	  </repository>
-	    <snapshotRepository>
-             <id>snapshots</id>
-	        <name>jfrog.staragile.com-snapshots</name>
-        	<url>http://54.210.188.242:8082/artifactory/staragile-lib-local-snapshot/</url>
-	    </snapshotRepository>
-	</distributionManagement>
-	
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog.cloudbinary.io-snapshots</name>
+        <url>http://13.126.176.84:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>	
 	
 	<scm>
 		<connection>scm:git:git@github.com:kesavkummari/cloudbinary-java-project.git</connection>
